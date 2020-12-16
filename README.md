@@ -1,6 +1,8 @@
 # Treasure Islands
 You are a treasure hunter with a map of buried treasure on several islands.  You know the value of the treasure on each island, and the cost of travelling between islands like this:
 
+![map](./TreasureIslands.png)
+
 Write a function which takes a list of locations and a list of travel costs, and calculates the maximum profit:
 
 ```js
