@@ -1,15 +1,18 @@
 # Treasure Islands
-You are a treasure hunter with a map of buried treasure on several islands.  You know the value of the treasure on each island, and the cost of travelling between islands.
+You are a treasure hunter with a map of buried treasure on several islands.  You know the value of the treasure on each island, and the cost of travelling between islands.  The net profit is the total treasue minus the total cost of travel.
 
 Note:
 - **You must start and end at the 'Home' island**
 - You can visit any location multiple times, but you will only get the treasure for that location once
-- It may be that staying Home produces the maximum profit (ie. all routes give negative profit)
+- It may be that staying Home produces the maximum net profit (ie. all routes give negative profit)
 
+Write a function `calculateProfit` which takes a list of locations and a list of travel costs, and calculates the maximum profit.
+
+For example:
 
 ![map](./Treasure%20Islands.png)
 
-Write a function which takes a list of locations and a list of travel costs, and calculates the maximum profit:
+You code should look like this:
 
 ```js
 
