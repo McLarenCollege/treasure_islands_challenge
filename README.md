@@ -1,5 +1,11 @@
 # Treasure Islands
-You are a treasure hunter with a map of buried treasure on several islands.  You know the value of the treasure on each island, and the cost of travelling between islands like this:
+You are a treasure hunter with a map of buried treasure on several islands.  You know the value of the treasure on each island, and the cost of travelling between islands.
+
+Note:
+- **You must start and end at the 'Home' island**
+- You can visit any location multiple times, but you will only get the treasure for that location once
+- It may be that staying Home produces the maximum profit (ie. all routes give negative profit)
+
 
 ![map](./Treasure%20Islands.png)
 
@@ -32,6 +38,3 @@ calculateProfit(islands, travelCosts); // should calculate the net profit
 
 
 
-### Notes
-- You can visit any location multiple times, but you will only get the treasure for that location once
-- You must start and end at the 'Home' location
