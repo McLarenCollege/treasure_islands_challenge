@@ -32,7 +32,7 @@ let travelCosts = [
     ['Home', 'Isle of the Dead', 500],
     ['Scar Island', 'Monkey Island', 200],
     ['Home', 'Scar Island', 200],
-    ['Home', 'Monkey Island', 200]
+    ['Home', 'Monkey Island', 300]
 ];
 
 calculateProfit(islands, travelCosts); // should calculate the net profit
