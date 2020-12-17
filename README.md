@@ -3,7 +3,7 @@ You are a treasure hunter with a map of buried treasure on several islands.  You
 
 Note:
 - **You must start and end at the 'Home' island**
-- Travel costs are bi-directional.  ie. The cost of travelling directly from island `A` to `B` is the same for `B` to `A`
+- Travel costs are bi-directional.  ie. The cost of travelling directly from island `A` to island `B` is the same for `B` to `A`
 - You can visit any location multiple times, but you will only get the treasure for that location once
 - It may be that staying Home produces the maximum net profit (ie. all routes give negative profit)
 
@@ -13,7 +13,7 @@ For example:
 
 ![map](./Treasure%20Islands.png)
 
-You code should look like this:
+Your code should look like this:
 
 ```js
 
